@@ -16,4 +16,18 @@ public class Calculadora
         }
         return dividendo / divisor;
     }
+
+    public string ObterTextoDeHistorico(int num1, int num2, string operacao)
+    {
+        if (operacao == "somar")
+        {
+            int soma =  Somar(num1, num2);
+
+            return $"A soma de {num1} e {num2} resultando em {soma}";
+        }
+
+        double resultado = Dividir(num1, num2);
+        
+        return $"A divisão de {num1} por {num2} resultando em {resultado}";
+    }
 }

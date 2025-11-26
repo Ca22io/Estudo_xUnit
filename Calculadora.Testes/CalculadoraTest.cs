@@ -64,4 +64,20 @@ public class CalculadoraTests
         // Assert
         Assert.Equal(resultadoEsperado, resultado);
     }
+
+    [Fact]
+    public void ObterTextoDeHistorico_Somar_DeveRetornarTextoCorreto()
+    {
+        // Arrange
+        var calculadora = new Calculadora();
+        int num1 = 3;
+        int num2 = 7;
+        string operacao = "somar";
+
+        // Act
+        string resultado = calculadora.ObterTextoDeHistorico(num1, num2, operacao);
+
+        // Assert
+        Assert.Contains("soma", resultado);
+    }
 }
