@@ -1,0 +1,12 @@
+C:\Users\ca22i\OneDrive\Documentos\Estudo_xUnit\Calculadora\bin\Debug\net8.0\Calculadora.deps.json
+C:\Users\ca22i\OneDrive\Documentos\Estudo_xUnit\Calculadora\bin\Debug\net8.0\Calculadora.dll
+C:\Users\ca22i\OneDrive\Documentos\Estudo_xUnit\Calculadora\bin\Debug\net8.0\Calculadora.pdb
+C:\Users\ca22i\OneDrive\Documentos\Estudo_xUnit\Calculadora\obj\Debug\net8.0\Calculadora.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ca22i\OneDrive\Documentos\Estudo_xUnit\Calculadora\obj\Debug\net8.0\Calculadora.AssemblyInfoInputs.cache
+C:\Users\ca22i\OneDrive\Documentos\Estudo_xUnit\Calculadora\obj\Debug\net8.0\Calculadora.AssemblyInfo.cs
+C:\Users\ca22i\OneDrive\Documentos\Estudo_xUnit\Calculadora\obj\Debug\net8.0\Calculadora.csproj.CoreCompileInputs.cache
+C:\Users\ca22i\OneDrive\Documentos\Estudo_xUnit\Calculadora\obj\Debug\net8.0\Calculadora.sourcelink.json
+C:\Users\ca22i\OneDrive\Documentos\Estudo_xUnit\Calculadora\obj\Debug\net8.0\Calculadora.dll
+C:\Users\ca22i\OneDrive\Documentos\Estudo_xUnit\Calculadora\obj\Debug\net8.0\refint\Calculadora.dll
+C:\Users\ca22i\OneDrive\Documentos\Estudo_xUnit\Calculadora\obj\Debug\net8.0\Calculadora.pdb
+C:\Users\ca22i\OneDrive\Documentos\Estudo_xUnit\Calculadora\obj\Debug\net8.0\ref\Calculadora.dll
