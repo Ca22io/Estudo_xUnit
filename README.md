@@ -31,7 +31,22 @@ A solução está dividida em:
 
 ## ▶️ Como Rodar os Testes
 
+Para clonar o repositorio use:
+```bash
+git clone https://github.com/Ca22io/Estudo_xUnit
+```
+```bash
+cd Estudo_xUnit
+```
+
 Para executar a bateria de testes, navegue até a pasta raiz do projeto via terminal e execute:
 
 ```bash
 dotnet test
+```
+
+Se desejar ver o detalhamento de cada teste executado (quais passaram e quais falharam), utilize:
+
+```bash
+dotnet test --logger "console;verbosity=detailed"
+```
