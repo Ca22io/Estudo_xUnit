@@ -39,7 +39,7 @@ git clone https://github.com/Ca22io/Estudo_xUnit
 cd Estudo_xUnit
 ```
 
-Para executar a bateria de testes, navegue até a pasta raiz do projeto via terminal e execute:
+Para executar a bateria de testes, na pasta raiz do projeto via terminal execute:
 
 ```bash
 dotnet test
