@@ -80,4 +80,45 @@ public class CalculadoraTests
         // Assert
         Assert.Contains("soma", resultado);
     }
+
+    [Fact]
+    public void ObterTextoDeHistorico_Dividir_DeveRetornarTextoCorreto()
+    {
+        // Arrange
+        var calculadora = new Calculadora();
+        int num1 = 6;
+        int num2 = 3;
+        string operacao = "dividir";
+
+        // Act
+        string resultado = calculadora.ObterTextoDeHistorico(num1, num2, operacao);
+
+        // Assert
+        Assert.StartsWith("A divisão", resultado);
+    }
+
+    [Theory]
+    [InlineData(4)]
+    [InlineData(10)]
+    public void EPar_DeveRetornarResultadoCorreto(int numero)
+    {
+        var calculadora = new Calculadora();
+
+        bool resultado = calculadora.EPar(numero);
+
+        Assert.True(resultado);
+    }
+
+    [Theory]
+    [InlineData(45)]
+    [InlineData(5)]
+    public void EImpar_DeveRetornarResultadoCorreto(int numero)
+    {
+        var calculadora = new Calculadora();
+
+        bool resultado = calculadora.EPar(numero);
+
+        Assert.False(resultado);
+    }
+
 }

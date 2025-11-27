@@ -30,4 +30,9 @@ public class Calculadora
         
         return $"A divisão de {num1} por {num2} resultando em {resultado}";
     }
+
+    public bool EPar(int numero)
+    {
+        return numero % 2 == 0;
+    }
 }
